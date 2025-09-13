@@ -8,35 +8,59 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 220 15% 97%;
+    --foreground: 215 25% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 215 25% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 215 25% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 215 85% 55%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 215 25% 25%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 215 15% 95%;
+    --muted-foreground: 215 15% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 165 85% 50%;
+    --accent-foreground: 0 0% 100%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 85% 60%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 215 15% 90%;
+    --input: 215 15% 90%;
+    --ring: 215 85% 55%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
+    
+    /* Financial App Colors */
+    --success: 140 85% 45%;
+    --success-foreground: 0 0% 100%;
+    --warning: 45 85% 55%;
+    --warning-foreground: 0 0% 100%;
+    
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(215 85% 55%), hsl(245 85% 65%));
+    --gradient-success: linear-gradient(135deg, hsl(140 85% 45%), hsl(165 85% 50%));
+    --gradient-background: linear-gradient(135deg, hsl(220 15% 97%), hsl(215 20% 95%));
+    
+    /* Shadows */
+    --shadow-card: 0 4px 20px -2px hsl(215 25% 15% / 0.1);
+    --shadow-hover: 0 8px 30px -4px hsl(215 25% 15% / 0.15);
+    
+    /* Chart Colors */
+    --chart-1: 215 85% 55%;
+    --chart-2: 245 85% 65%;
+    --chart-3: 165 85% 50%;
+    --chart-4: 45 85% 55%;
+    --chart-5: 280 85% 60%;
+
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
 
